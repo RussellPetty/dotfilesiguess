@@ -1,0 +1,98 @@
+{
+  "language": "en",
+  "downloadsFolder": "/home/arch-btw/.lmstudio/models",
+  "sidebar": {
+    "showButtonNames": false,
+    "monochromeSidebarIcons": false
+  },
+  "configs": {
+    "expandConfigsOnClick": true
+  },
+  "chat": {
+    "showSuggestionsOnNewChat": true,
+    "alwaysShowPromptTemplate": false,
+    "autoSwitchToModelInChatIfLoaded": true,
+    "useShiftEnterToSendMessage": false,
+    "useKeychordToRegenerate": true,
+    "unloadPreviousModelOnSelect": true,
+    "highlightChatMessageOnHover": true,
+    "doubleClickMessageToEdit": false,
+    "aiNamingMode": "auto",
+    "autoExpandReasoningBlocks": true,
+    "reasoningBlocksVignette": true,
+    "messageGenInfoMode": "lastMessage",
+    "visualizeSpeculativeDecoding": false,
+    "chatFullWidth": false,
+    "neverAskForToolConfirmation": false,
+    "skipToolConfirmationPatterns": [],
+    "showChatUtilityMenuLabels": true,
+    "pinnedPlugins": [],
+    "showRoleAndInsertButtons": false,
+    "scrollLastMessageToTop": "scrollToTopNoLatch",
+    "showTokenCountInChatListings": true,
+    "moveDeletedItemsToTrash": false,
+    "sidebarSort": {
+      "field": "createdAt",
+      "direction": "desc"
+    }
+  },
+  "developer": {
+    "showExperimentalFeatures": false,
+    "experimentalLoadPresets": false,
+    "showDebugInfoBlocksInChat": false,
+    "showModelDownloadOptionData": false,
+    "backendDownloadChannel": "stable",
+    "appUpdateChannel": "stable",
+    "allowDevelopmentPlugins": true,
+    "unloadPreviousJITModelOnLoad": true,
+    "jitModelTTL": {
+      "enabled": true,
+      "ttlSeconds": 3600
+    },
+    "autoUpdateExtensionPacks": true,
+    "autoDeleteExtensionPacks": true,
+    "separateReasoningContent": false,
+    "experimentFlags": [],
+    "apiPredictionHistoryEviction": {
+      "type": "time",
+      "ttlDays": 30
+    }
+  },
+  "ui": {
+    "missionControlFullscreen": false,
+    "showModelFileNameInMyModels": false,
+    "configureLoadParamsBeforeLoad": false,
+    "showTabStripScrollBar": false,
+    "tabStripFullStripStyle": false,
+    "openDownloadsPaneOnStartNewModelDownload": false
+  },
+  "configPresetInclusiveness": {
+    "speculativeDecoding": false
+  },
+  "toggledConfigDropdowns": [],
+  "userInterfaceComplexityLevel": 2,
+  "appFirstLoad": false,
+  "autoLoadBundledLLM": true,
+  "modelLoadingGuardrails": {
+    "mode": "off",
+    "customThresholdBytes": 4294967296,
+    "alwaysAllowLoadAnyway": false
+  },
+  "dismissedModals": [
+    "Search & Find Onboarding",
+    "Trash Deletion Onboarding"
+  ],
+  "dismissedConversationSnackbars": [],
+  "pre030ChatsMigrated": 3,
+  "appPostUpdateNotificationPending": false,
+  "promptWhenCommittingUnsavedChangesWithNewFields": false,
+  "enableLocalService": false,
+  "cliInstalled": false,
+  "useHFProxy": true,
+  "hfSearchToken": "",
+  "hfDownloadToken": "",
+  "defaultContextLength": {
+    "type": "custom",
+    "value": 4096
+  }
+}

@@ -1,0 +1,56 @@
+/* File dialog transparency */
+window.background.csd,
+window.background.solid-csd,
+.dialog,
+.dialog.background,
+filechooser,
+filechooser .dialog-vbox,
+filechooser .frame,
+filechooser scrolledwindow,
+filechooser treeview.view,
+filechooser placessidebar,
+filechooserwidget {
+    background-color: rgba(30, 30, 30, 0.4);
+}
+
+/* Make file chooser window itself transparent */
+window.filechooser {
+    background-color: rgba(30, 30, 30, 0.4);
+}
+
+/* Ensure text remains visible */
+filechooser label,
+filechooser treeview.view label,
+filechooser .cell,
+filechooser text {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+/* Header bar transparency */
+filechooser headerbar,
+.dialog headerbar {
+    background-color: rgba(40, 40, 40, 0.6);
+}
+
+/* Sidebar transparency */
+filechooser placessidebar row {
+    background-color: transparent;
+}
+
+filechooser placessidebar row:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* List items */
+filechooser treeview.view row {
+    background-color: transparent;
+}
+
+filechooser treeview.view row:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+filechooser treeview.view row:selected {
+    background-color: rgba(52, 152, 219, 0.3);
+}

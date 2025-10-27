@@ -1,0 +1,139 @@
+# Sensitive files
+.ssh/
+.gnupg/
+.password-store/
+.aws/
+.kube/
+*.key
+*.pem
+*.p12
+*.pfx
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+.netrc
+
+# Cache directories
+.cache/
+.cargo/
+.npm/
+.node_modules/
+.rustup/
+.gradle/
+.m2/
+.ivy2/
+.sbt/
+.coursier/
+.thumbnails/
+
+# Browser data
+.mozilla/
+.config/google-chrome/
+.config/chromium/
+.config/BraveSoftware/
+.config/vivaldi/
+.local/share/applications/chrome-*.desktop
+.local/share/applications/chromium-*.desktop
+
+# Package manager caches
+.local/share/pnpm/
+.local/share/yarn/
+.yarnrc
+yay/
+
+# Large development directories
+node_modules/
+target/
+build/
+dist/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# VS Code / Code - OSS cache and sensitive files
+.config/Code - OSS/Cache/
+.config/Code - OSS/CachedData/
+.config/Code - OSS/CachedExtensionVSIXs/
+.config/Code - OSS/CachedProfilesData/
+.config/Code - OSS/User/History/
+.config/Code - OSS/User/workspaceStorage/
+.config/Code - OSS/User/globalStorage/
+.config/Code - OSS/Backups/
+.config/Code - OSS/Cookies
+.config/Code - OSS/Cookies-journal
+.config/Code - OSS/Code Cache/
+.config/Code - OSS/GPUCache/
+.config/Code - OSS/Service Worker/
+.config/Code - OSS/Session Storage/
+.config/Code - OSS/Local Storage/
+.config/Code - OSS/WebStorage/
+
+# Local state and runtime
+.local/state/
+.local/share/Trash/
+.local/share/recently-used.xbel
+.local/share/gvfs-metadata/
+.dbus/
+.ICEauthority
+.Xauthority
+
+# Large binary files and applications
+.local/bin/lm-studio
+.local/bin/openshot
+.local/bin/uv
+.local/bin/uvx
+Documents/chromium-vertical-tabs/
+ollama-ui/
+presonton/
+
+# Claude and AI tool history
+.claude/history.jsonl
+.claude/projects/
+.claude/file-history/
+.claude/shell-snapshots/
+
+# Git repositories within home
+Documents/*/
+!Documents/*.md
+!Documents/*.txt
+
+# Build artifacts and caches
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# Logs
+*.log
+.xsession-errors*
+.bash_history
+.zsh_history
+.python_history
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# System files
+.gvfs
+.Trash-*/
+lost+found/

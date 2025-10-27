@@ -1,0 +1,6 @@
+2025/10/26-09:36:43.655 3f859 Reusing MANIFEST /home/arch-btw/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/26-09:36:43.656 3f859 Recovering log #3
+2025/10/26-09:36:43.677 3f859 Reusing old log /home/arch-btw/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
+2025/10/26-09:44:08.112 3f858 Level-0 table #5: started
+2025/10/26-09:44:08.145 3f858 Level-0 table #5: 1574763 bytes OK
+2025/10/26-09:44:08.149 3f858 Delete type=0 #3

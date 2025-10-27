@@ -1,0 +1,1 @@
+/home/arch-btw/.config/omarchy/current/theme/neovim.lua

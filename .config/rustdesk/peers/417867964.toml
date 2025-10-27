@@ -1,0 +1,130 @@
+password = [
+    48,
+    48,
+    105,
+    53,
+    48,
+    111,
+    116,
+    56,
+    74,
+    112,
+    112,
+    85,
+    104,
+    43,
+    81,
+    104,
+    88,
+    107,
+    99,
+    54,
+    113,
+    81,
+    81,
+    120,
+    57,
+    119,
+    47,
+    54,
+    100,
+    67,
+    98,
+    113,
+    74,
+    103,
+    99,
+    110,
+    52,
+    84,
+    81,
+    74,
+    74,
+    53,
+    67,
+    110,
+    114,
+    116,
+    48,
+    85,
+    97,
+    51,
+    71,
+    121,
+    52,
+    112,
+    120,
+    48,
+    122,
+    85,
+    75,
+    97,
+    106,
+    72,
+    81,
+    109,
+    111,
+    109,
+]
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+size_ft = [
+    0,
+    0,
+    0,
+    0,
+]
+size_pf = [
+    0,
+    0,
+    0,
+    0,
+]
+view_style = 'adaptive'
+scroll_style = 'scrollauto'
+image_quality = 'low'
+custom_image_quality = [50]
+show_remote_cursor = false
+lock_after_session_end = false
+terminal-persistent = false
+privacy_mode = false
+allow_swap_key = false
+port_forwards = []
+direct_failures = 0
+disable_audio = true
+disable_clipboard = false
+enable-file-copy-paste = true
+show_quality_monitor = false
+follow_remote_cursor = false
+follow_remote_window = false
+keyboard_mode = 'map'
+view_only = false
+show_my_cursor = false
+sync-init-clipboard = false
+trackpad-speed = 100
+
+[options]
+codec-preference = 'auto'
+local_dir = '/home/arch-btw/Videos'
+remote-menubar-drag-x = '0.4513041927466863'
+remote_dir = '{"russellpetty":"/Users/russellpetty/Desktop"}'
+swap-left-right-mouse = ''
+touch-mode = ''
+zoom-cursor = ''
+i444 = ''
+custom-fps = '30'
+
+[ui_flutter]
+
+[info]
+username = 'russellpetty'
+hostname = 'russells-mac-mini.local'
+platform = 'Mac OS'
+
+[transfer]
+write_jobs = []
+read_jobs = []
