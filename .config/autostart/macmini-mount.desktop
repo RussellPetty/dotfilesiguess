@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Mount Mac Mini
+Comment=Auto-mount Mac Mini filesystem via SSHFS
+Exec=/home/arch-btw/.local/bin/mount-macmini.sh true
+Terminal=false
+Hidden=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false

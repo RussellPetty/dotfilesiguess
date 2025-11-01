@@ -21,8 +21,7 @@
         "modules": [
             "cpu",
             "memory",
-            "custom/cpuinfo",
-            "custom/gpuinfo"
+            "custom/cpuinfo"
         ]
     },
     "group/pill#left2": {

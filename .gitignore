@@ -63,6 +63,7 @@ __pycache__/
 .DS_Store
 
 # VS Code / Code - OSS cache and sensitive files
+.config/Code/
 .config/Code - OSS/Cache/
 .config/Code - OSS/CachedData/
 .config/Code - OSS/CachedExtensionVSIXs/
@@ -79,6 +80,46 @@ __pycache__/
 .config/Code - OSS/Session Storage/
 .config/Code - OSS/Local Storage/
 .config/Code - OSS/WebStorage/
+.config/Code - OSS/DIPS
+.config/Code - OSS/DawnGraphiteCache/
+.config/Code - OSS/DawnWebGPUCache/
+.config/Code - OSS/Network Persistent State
+.config/Code - OSS/TransportSecurity
+
+# Obsidian cache and state files
+.config/obsidian/Cache/
+.config/obsidian/Code Cache/
+.config/obsidian/GPUCache/
+.config/obsidian/DawnGraphiteCache/
+.config/obsidian/DawnWebGPUCache/
+.config/obsidian/IndexedDB/
+.config/obsidian/Local Storage/
+.config/obsidian/Session Storage/
+.config/obsidian/WebStorage/
+.config/obsidian/DIPS
+.config/obsidian/Network Persistent State
+.config/obsidian/TransportSecurity
+
+# LibreOffice cache and pack files
+.config/libreoffice/*/cache/
+.config/libreoffice/*/user/pack/
+.config/libreoffice/*/user/registrymodifications.xcu
+
+# Application state files
+.config/dconf/
+.config/QtProject.conf
+.config/zoomus.conf
+.config/trashrc
+
+# RustDesk runtime config
+.config/rustdesk/*.toml
+
+# Zsh compiled files and cache
+.config/zsh/.zcompdump*
+.config/zsh/.zsh_history
+
+# GTK bookmarks (user-specific)
+.config/gtk-3.0/bookmarks
 
 # Local state and runtime
 .local/state/
@@ -131,7 +172,10 @@ tmp/
 temp/
 *.tmp
 *.bak
+*.bak.*
 *.backup
+*.backup.*
+*backup*/
 
 # System files
 .gvfs

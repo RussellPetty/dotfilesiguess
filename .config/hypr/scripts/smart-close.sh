@@ -5,7 +5,7 @@
 active_class=$(hyprctl activewindow -j | jq -r '.class')
 
 # List of apps that need force killing
-force_kill_apps=("nwg-displays" "nwg-look")
+force_kill_apps=("nwg-displays" "nwg-look" "rustdesk")
 
 # Try normal close first
 hyprctl dispatch killactive
